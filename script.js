@@ -32,7 +32,7 @@ for (var i = 0; i < timeBlock.length; i++) {
     //select the current timeBlock based on hour, starting at 9
     var currentBlock = $('#' + counter);
     //get id and turn it into an integer
-    var idHour = $('.time-block')[i].id
+    var idHour = $('.time-block')[i].id;
     parseInt(idHour);
     // check each id to see if it is past present or future
     if (idHour < time) {
